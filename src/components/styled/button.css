@@ -1,0 +1,17 @@
+.btn{
+    @apply px-4 py-3 ;
+    &-primary {
+        @apply border-primary bg-primary text-primary-content;
+        &:hover,
+        &.btn-active {
+            @apply border-primary-focus bg-primary-focus;
+        }
+    }
+    &-secondary {
+        @apply border-secondary bg-secondary text-secondary-content;
+        &:hover,
+        &.btn-active {
+            @apply border-secondary-focus bg-secondary-focus;
+        }
+    }
+}

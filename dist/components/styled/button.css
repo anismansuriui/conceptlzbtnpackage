@@ -1,0 +1,36 @@
+.btn {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem
+}
+    .btn-primary {
+    --tw-border-opacity: 1;
+    border-color: var(--p);
+    --tw-bg-opacity: 1;
+    background-color: var(--p);
+    --tw-text-opacity: 1;
+    color: var(--pc)
+}
+    .btn-primary:hover,
+        .btn-primary.btn-active {
+    --tw-border-opacity: 1;
+    border-color: var(--pf);
+    --tw-bg-opacity: 1;
+    background-color: var(--pf)
+}
+    .btn-secondary {
+    --tw-border-opacity: 1;
+    border-color: var(--s);
+    --tw-bg-opacity: 1;
+    background-color: var(--s);
+    --tw-text-opacity: 1;
+    color: var(--sc)
+}
+    .btn-secondary:hover,
+        .btn-secondary.btn-active {
+    --tw-border-opacity: 1;
+    border-color: var(--sf);
+    --tw-bg-opacity: 1;
+    background-color: var(--sf)
+}

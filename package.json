@@ -1,0 +1,38 @@
+{
+  "name": "conceptlzbtnpackage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "prebase": "postcss --config src/components src/components/**/*.css --base src --dir dist",
+    "postbase": "prejss-cli dist/components/**/*.css --format commonjs",
+    "merge:styled": "type dist\\components\\styled\\*.css dist\\components\\styled\\*.css > dist\\styled.css",
+    "prejss": "prejss-cli dist/*.css --format commonjs",   
+    "themes": "postcss src/themes/index.css -o dist/themes.css --config src/themes",
+    "full": "postcss src/full/index.css -o dist/full.css --config src/full",
+    "build": "npm run prebase && npm run postbase && npm run merge:styled && npm run prejss && npm run themes && npm run full"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/css-cli": "1.5.0",
+    "@types/css-selector-tokenizer": "^0.7.1",
+    "color-contrast-checker": "^2.1.0",
+    "autoprefixer": "10.0.4",
+    "postcss-cli": "8.3.0",
+    "postcss-import": "13.0.0",
+    "postcss-nested": "5.0.1",
+    "prejss-cli": "0.3.3",
+    "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "color": "^4.2",
+    "css-selector-tokenizer": "^0.8.0",
+    "postcss-js": "^4.0.0",
+    "tailwindcss": "^3.2.7"
+  },
+  "peerDependencies": {
+    "autoprefixer": "^10.0.2",
+    "postcss": "^8.1.6"
+  }
+}

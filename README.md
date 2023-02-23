@@ -5,13 +5,7 @@
 ## 📀 Install now!
 
 ```bash
-npm i daisyui
-```
-
-## 📀 Install now!
-
-```bash
-npm i daisyui
+npm i btncomponentconceptlz
 ```
 
 Then add conceptlzbtnpackage to your `tailwind.config.js`:

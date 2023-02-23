@@ -12,6 +12,6 @@ Then add conceptlzbtnpackage to your `tailwind.config.js`:
 
 ```js
 module.exports = {
-  plugins: [require("conceptlzbtnpackage")],
+  plugins: [require("btncomponentconceptlz")],
 }
 ```

@@ -4,14 +4,20 @@
         @apply border-primary bg-primary text-primary-content;
         &:hover,
         &.btn-active {
-            @apply border-primary-focus bg-primary-focus;
+          @apply border-primary-focus bg-primary-focus;
         }
-    }
-    &-secondary {
+        &:focus-visible {
+          outline: 2px solid hsl(var(--p));
+        }
+      }
+      &-secondary {
         @apply border-secondary bg-secondary text-secondary-content;
         &:hover,
         &.btn-active {
-            @apply border-secondary-focus bg-secondary-focus;
+          @apply border-secondary-focus bg-secondary-focus;
         }
-    }
+        &:focus-visible {
+          outline: 2px solid hsl(var(--s));
+        }
+      }
 }

@@ -1,12 +1,11 @@
 module.exports = {
     "[data-theme=light]": {
       "color-scheme": "light",
-      '--p': "#B68A35",
-      '--pf': "#C5A25D",
-      "--pc": "#ffffff",
-      '--s': "#171A53",
-      '--sf':'#454875',
-      "--sc": "#ffffff",
+      primary: "#570df8",
+      "primary-content": "#ffffff",
+      secondary: "#f000b8",
+      "secondary-content": "#ffffff",
+      "base-100": "#345da7",
     },
   };
   

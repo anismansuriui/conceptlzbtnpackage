@@ -1,72 +1,84 @@
 .btn {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem
+          padding-left: 1rem;
+          padding-right: 1rem;
+          padding-top: 0.75rem;
+          padding-bottom: 0.75rem;
 }
     .btn-primary {
-    --tw-border-opacity: 1;
-    border-color: var(--p);
-    --tw-bg-opacity: 1;
-    background-color: var(--p);
-    --tw-text-opacity: 1;
-    color: var(--pc)
+          --tw-border-opacity: 1;
+          border-color: hsl(var(--p) / var(--tw-border-opacity));
+          --tw-bg-opacity: 1;
+          background-color: hsl(var(--p) / var(--tw-bg-opacity));
+          --tw-text-opacity: 1;
+          color: hsl(var(--pc) / var(--tw-text-opacity));
 }
     .btn-primary:hover,
         .btn-primary.btn-active {
-    --tw-border-opacity: 1;
-    border-color: var(--pf);
-    --tw-bg-opacity: 1;
-    background-color: var(--pf)
+          --tw-border-opacity: 1;
+          border-color: hsl(var(--pf, var(--p)) / var(--tw-border-opacity));
+          --tw-bg-opacity: 1;
+          background-color: hsl(var(--pf, var(--p)) / var(--tw-bg-opacity));
 }
+    .btn-primary:focus-visible {
+          outline: 2px solid hsl(var(--p));
+        }
     .btn-secondary {
-    --tw-border-opacity: 1;
-    border-color: var(--s);
-    --tw-bg-opacity: 1;
-    background-color: var(--s);
-    --tw-text-opacity: 1;
-    color: var(--sc)
+          --tw-border-opacity: 1;
+          border-color: hsl(var(--s) / var(--tw-border-opacity));
+          --tw-bg-opacity: 1;
+          background-color: hsl(var(--s) / var(--tw-bg-opacity));
+          --tw-text-opacity: 1;
+          color: hsl(var(--sc) / var(--tw-text-opacity));
 }
     .btn-secondary:hover,
         .btn-secondary.btn-active {
-    --tw-border-opacity: 1;
-    border-color: var(--sf);
-    --tw-bg-opacity: 1;
-    background-color: var(--sf)
+          --tw-border-opacity: 1;
+          border-color: hsl(var(--sf, var(--s)) / var(--tw-border-opacity));
+          --tw-bg-opacity: 1;
+          background-color: hsl(var(--sf, var(--s)) / var(--tw-bg-opacity));
 }
+    .btn-secondary:focus-visible {
+          outline: 2px solid hsl(var(--s));
+        }
 .btn {
-    padding-left: 1rem;
-    padding-right: 1rem;
-    padding-top: 0.75rem;
-    padding-bottom: 0.75rem
+          padding-left: 1rem;
+          padding-right: 1rem;
+          padding-top: 0.75rem;
+          padding-bottom: 0.75rem;
 }
     .btn-primary {
-    --tw-border-opacity: 1;
-    border-color: var(--p);
-    --tw-bg-opacity: 1;
-    background-color: var(--p);
-    --tw-text-opacity: 1;
-    color: var(--pc)
+          --tw-border-opacity: 1;
+          border-color: hsl(var(--p) / var(--tw-border-opacity));
+          --tw-bg-opacity: 1;
+          background-color: hsl(var(--p) / var(--tw-bg-opacity));
+          --tw-text-opacity: 1;
+          color: hsl(var(--pc) / var(--tw-text-opacity));
 }
     .btn-primary:hover,
         .btn-primary.btn-active {
-    --tw-border-opacity: 1;
-    border-color: var(--pf);
-    --tw-bg-opacity: 1;
-    background-color: var(--pf)
+          --tw-border-opacity: 1;
+          border-color: hsl(var(--pf, var(--p)) / var(--tw-border-opacity));
+          --tw-bg-opacity: 1;
+          background-color: hsl(var(--pf, var(--p)) / var(--tw-bg-opacity));
 }
+    .btn-primary:focus-visible {
+          outline: 2px solid hsl(var(--p));
+        }
     .btn-secondary {
-    --tw-border-opacity: 1;
-    border-color: var(--s);
-    --tw-bg-opacity: 1;
-    background-color: var(--s);
-    --tw-text-opacity: 1;
-    color: var(--sc)
+          --tw-border-opacity: 1;
+          border-color: hsl(var(--s) / var(--tw-border-opacity));
+          --tw-bg-opacity: 1;
+          background-color: hsl(var(--s) / var(--tw-bg-opacity));
+          --tw-text-opacity: 1;
+          color: hsl(var(--sc) / var(--tw-text-opacity));
 }
     .btn-secondary:hover,
         .btn-secondary.btn-active {
-    --tw-border-opacity: 1;
-    border-color: var(--sf);
-    --tw-bg-opacity: 1;
-    background-color: var(--sf)
+          --tw-border-opacity: 1;
+          border-color: hsl(var(--sf, var(--s)) / var(--tw-border-opacity));
+          --tw-bg-opacity: 1;
+          background-color: hsl(var(--sf, var(--s)) / var(--tw-bg-opacity));
 }
+    .btn-secondary:focus-visible {
+          outline: 2px solid hsl(var(--s));
+        }
